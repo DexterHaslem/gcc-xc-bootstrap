@@ -1,5 +1,6 @@
 # gcc-xc-bootstrap
-scripts to download and compile a freestanding (nostdlib) binutils + gcc toolchain 
+Scripts to download and compile a freestanding (nostdlib) binutils + gcc toolchain.
+This is based on the guide available here http://wiki.osdev.org/GCC_Cross-Compiler
 
 
 # Usage
