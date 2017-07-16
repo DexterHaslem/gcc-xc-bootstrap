@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 which -- $TARGET-as || echo $TARGET-as is not in the PATH, ensure binutils built first
 

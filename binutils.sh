@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ ! -f "binutils-$BINUTILSVER.tar.gz" ]; then
 	wget ftp://ftp.gnu.org/gnu/binutils/binutils-$BINUTILSVER.tar.gz
