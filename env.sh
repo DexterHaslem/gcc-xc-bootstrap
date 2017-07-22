@@ -12,7 +12,7 @@ export BINUTILSVER=2.28
 # set this to number of threads to compile with, setting this to max cpu
 # (or optionally +1) will greatly decrease the amount of time gcc takes
 # to compile if your cpu is beefy
-export NUMCPU=6
+export NUMCPU=17
 export PREFIX="$HOME/opt/cross"
 export PATH="$PREFIX/bin:$PATH"
 
