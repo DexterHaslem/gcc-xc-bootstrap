@@ -18,7 +18,7 @@ cd build-gcc
 
 ../gcc-$GCCVER/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c --without-headers
 
-make distclean
+make clean
 make all-gcc -j$NUMCPU
 make all-target-libgcc -j$NUMCPU
 

@@ -16,7 +16,7 @@ cd build-binutils
 
 ../binutils-$BINUTILSVER/configure --target=$TARGET --prefix="$PREFIX" --with-sysroot --disable-nls --disable-werror
 
-make distclean
+make clean
 make -j$NUMCPU
 make install -j$NUMCPU
 
