@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 which -- $TARGET-as || echo $TARGET-as is not in the PATH, ensure binutils built first
 
@@ -18,8 +18,9 @@ cd build-gcc
 
 ../gcc-$GCCVER/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c --without-headers
 
-make all-gcc -j$NUMCPU -pipe
-make all-target-libgcc -j$NUMCPU -pipe
+make distclean
+make all-gcc -j$NUMCPU
+make all-target-libgcc -j$NUMCPU
 
-make install-gcc -j$NUMCPU
-make install-target-libgcc -j$NUMCPU
+make install-gcc 
+make install-target-libgcc
