@@ -4,11 +4,15 @@ This is based on the guide available here http://wiki.osdev.org/GCC_Cross-Compil
 
 ## Prerequisites
 - the following packages need to be installed:
-- libintl-devel
+- bison
+- flex
+- libint-devel
 - libgmp-devel
 - libmpfr-devel
 - libmpc-devel
 - texinfo
+
+You can install these automatically on debian/ubuntu with `install-deps-deb.sh`
 
 ## Usage
 1. edit env.sh to set your target platform & where to install to. user directory installation is recommended
