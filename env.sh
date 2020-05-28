@@ -7,8 +7,8 @@ export TARGET=i686-elf
 
 # note - make sure the combination of versions work together! see
 # http://wiki.osdev.org/Cross-Compiler_Successful_Builds
-export GCCVER=8.2.0
-export BINUTILSVER=2.31.1
+export GCCVER=9.3.0
+export BINUTILSVER=2.34
 
 # set this to number of threads to compile with, setting this to max cpu
 # (or optionally +1) will greatly decrease the amount of time gcc takes
