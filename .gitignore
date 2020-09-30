@@ -1,7 +1,8 @@
-binutils-2.34.tar.gz
-binutils-2.34/
+binutils-2.35.1.tar.gz
+binutils-2.35.1/
 build-binutils/
 build-gcc/
-gcc-9.3.0.tar.gz
-gcc-9.3.0/
+gcc-10.2.0.tar.gz
+gcc-10.2.0/
+*~
 

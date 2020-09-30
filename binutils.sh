@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ ! -f "binutils-$BINUTILSVER.tar.gz" ]; then
-	wget ftp://ftp.gnu.org/gnu/binutils/binutils-$BINUTILSVER.tar.gz
+	wget https://ftp.gnu.org/gnu/binutils/binutils-$BINUTILSVER.tar.gz
 fi
 
 if [ ! -d "binutils-$BINUTILSVER" ]; then
