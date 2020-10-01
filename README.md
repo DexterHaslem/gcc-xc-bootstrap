@@ -11,6 +11,7 @@ This is based on the guide available here http://wiki.osdev.org/GCC_Cross-Compil
 - libmpfr-devel
 - libmpc-devel
 - texinfo
+(depending on platform)
 
 You can install these automatically on debian/ubuntu with `install-deps-deb.sh`
 
